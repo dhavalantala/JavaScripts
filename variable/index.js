@@ -29,10 +29,13 @@
 // c = b + 2;
 // console.log(c)
 
-let i = 5;
+// let i = 5;
 
-i += 5
+// i += 5
 
-console.log(i)
+const pi = 3.141592
+let radius = 4
 
 
+
+console.log(pi * radius * radius)
