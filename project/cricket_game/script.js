@@ -5,9 +5,9 @@ function bat(){
 
     let computerChoice;
 
-    if (randomNumber > 0 && randomNumber <= 1) {
+    if (randomNumber <= 1) {
         computerChoice = 'Bat';
-    } else if (randomNumber > 1 && randomNumber <= 2){
+    } else if (randomNumber <= 2){
         computerChoice = 'Ball';
     } else {
         computerChoice = 'Stump';
@@ -34,9 +34,9 @@ function ball(){
 
     let computerChoice;
 
-    if (randomNumber > 0 && randomNumber <= 1) {
+    if (randomNumber <= 1) {
         computerChoice = 'Bat';
-    } else if (randomNumber > 1 && randomNumber <= 2){
+    } else if (andomNumber <= 2){
         computerChoice = 'Ball';
     } else {
         computerChoice = 'Stump';
@@ -63,9 +63,9 @@ function stump(){
 
     let computerChoice;
 
-    if (randomNumber > 0 && randomNumber <= 1) {
+    if (randomNumber <= 1) {
         computerChoice = 'Bat';
-    } else if (randomNumber > 1 && randomNumber <= 2){
+    } else if (randomNumber <= 2){
         computerChoice = 'Ball';
     } else {
         computerChoice = 'Stump';
