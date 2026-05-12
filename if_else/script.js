@@ -1,0 +1,39 @@
+// console.log(5>8)
+// console.log(5<8)
+// console.log(typeof(5<8))
+// console.log('true')
+// console.log(typeof('true'))
+// console.log(5==5)
+// console.log(5==4)
+// console.log(5 = 6)
+
+
+// console.log(5 == 5.0)
+// console.log(5 == 5)
+// console.log(5 == '5.0')
+// console.log(5 == '5')
+
+// console.log(5 === 5.0)
+// console.log(5 == 4)
+// console.log(5 === '5.0')
+// console.log(5 == '4')
+
+// console.log(5 != 5)
+// console.log(5 + 5 === 4 + 6)
+
+console.log("Checking if you can drive!");
+
+let age = 70;
+
+if (age > 65) {
+    console.log("Please ask someone else to drive you!");
+} else if (age > 18) {
+    console.log("You can drive!")
+}
+else {
+    console.log("Use a Bicycle!")
+}
+// if (age < 18) {
+//     console.log("Use a Bicycle!")
+// }
+
